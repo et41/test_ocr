@@ -1,0 +1,161 @@
+# Transformer Test Report Field Definitions
+# Coordinates are in pixels at 300 DPI (x1, y1, x2, y2)
+# Run pipeline/coordinate_picker.py on a sample image to calibrate these values
+
+fields:
+  # --- Nameplate Data ---
+  rated_power_kva:
+    page: 0
+    bbox: [0, 0, 0, 0]  # Calibrate with coordinate_picker.py
+    validation:
+      type: numeric
+      min: 10
+      max: 500000
+      expected_decimals: 0
+    description: "Rated power in kVA"
+
+  rated_voltage_hv_kv:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 0.4
+      max: 800
+      expected_decimals: 1
+    description: "Rated voltage HV side in kV"
+
+  rated_voltage_lv_kv:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 0.1
+      max: 100
+      expected_decimals: 1
+    description: "Rated voltage LV side in kV"
+
+  # --- No-Load Test Results ---
+  no_load_loss_w:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 10
+      max: 100000
+      expected_decimals: 0
+    description: "No-load loss in Watts"
+
+  no_load_current_pct:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 0.01
+      max: 10.0
+      expected_decimals: 2
+    description: "No-load current as percentage of rated"
+
+  # --- Load Loss / Short-Circuit Test ---
+  load_loss_w:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 50
+      max: 500000
+      expected_decimals: 0
+    description: "Load loss (short-circuit loss) in Watts"
+
+  impedance_voltage_pct:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 1.0
+      max: 25.0
+      expected_decimals: 2
+    description: "Impedance voltage Uk in percent"
+
+  # --- Insulation / Hi-Pot Test ---
+  applied_voltage_kv:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 1
+      max: 1000
+      expected_decimals: 0
+    description: "Applied test voltage in kV"
+
+  induced_voltage_kv:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 1
+      max: 2000
+      expected_decimals: 0
+    description: "Induced overvoltage test in kV"
+
+  # --- Ratio Test ---
+  ratio_tap1:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 0.1
+      max: 10000
+      expected_decimals: 4
+    description: "Turns ratio at tap position 1"
+
+  ratio_error_tap1_pct:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: -5.0
+      max: 5.0
+      expected_decimals: 2
+    description: "Ratio error at tap 1 in percent"
+
+  # --- Winding Resistance ---
+  resistance_hv_ohm:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 0.001
+      max: 10000
+      expected_decimals: 3
+    description: "HV winding resistance in Ohm"
+
+  resistance_lv_mohm:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 0.001
+      max: 10000
+      expected_decimals: 3
+    description: "LV winding resistance in mOhm"
+
+  # --- Temperature ---
+  ambient_temp_c:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: -10
+      max: 60
+      expected_decimals: 1
+    description: "Ambient temperature in degrees C"
+
+  oil_temp_c:
+    page: 0
+    bbox: [0, 0, 0, 0]
+    validation:
+      type: numeric
+      min: 0
+      max: 120
+      expected_decimals: 1
+    description: "Oil temperature in degrees C"
