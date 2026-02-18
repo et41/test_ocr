@@ -1,6 +1,7 @@
 """Phase 3: PyTorch Dataset for handwritten numeric field images."""
 
 import csv
+import random
 from pathlib import Path
 
 import cv2
@@ -10,10 +11,10 @@ from torch.utils.data import Dataset
 
 LABELS_CSV = Path(__file__).resolve().parent.parent / "data" / "labels.csv"
 
-# Character set: digits, decimal point, minus sign, CTC blank
-CHARS = "0123456789.-"
-BLANK_IDX = len(CHARS)  # 12 = CTC blank token
-NUM_CLASSES = len(CHARS) + 1  # 13 total
+# Character set: digits, decimal point, comma, minus sign, plus sign, CTC blank
+CHARS = "0123456789.,-+"
+BLANK_IDX = len(CHARS)  # 14 = CTC blank token
+NUM_CLASSES = len(CHARS) + 1  # 15 total
 
 # Char ↔ index mappings
 CHAR_TO_IDX = {c: i for i, c in enumerate(CHARS)}
@@ -53,6 +54,48 @@ def resize_to_fixed_height(image: np.ndarray, target_height: int = IMG_HEIGHT) -
     return resized
 
 
+def augment_image(image: np.ndarray) -> np.ndarray:
+    """Apply random augmentations to a grayscale image for training.
+
+    Augmentations: slight rotation, elastic distortion, brightness/contrast
+    jitter, Gaussian noise, and random erosion/dilation.
+    """
+    h, w = image.shape[:2]
+
+    # Random rotation (-3 to +3 degrees)
+    if random.random() < 0.5:
+        angle = random.uniform(-3, 3)
+        M = cv2.getRotationMatrix2D((w / 2, h / 2), angle, 1.0)
+        image = cv2.warpAffine(image, M, (w, h), borderMode=cv2.BORDER_REPLICATE)
+
+    # Random brightness/contrast
+    if random.random() < 0.5:
+        alpha = random.uniform(0.7, 1.3)  # contrast
+        beta = random.uniform(-30, 30)    # brightness
+        image = np.clip(alpha * image.astype(np.float32) + beta, 0, 255).astype(np.uint8)
+
+    # Gaussian noise
+    if random.random() < 0.3:
+        noise = np.random.normal(0, random.uniform(5, 15), image.shape).astype(np.float32)
+        image = np.clip(image.astype(np.float32) + noise, 0, 255).astype(np.uint8)
+
+    # Random erosion or dilation (thicken/thin strokes)
+    if random.random() < 0.3:
+        kernel = np.ones((2, 2), np.uint8)
+        if random.random() < 0.5:
+            image = cv2.erode(image, kernel, iterations=1)
+        else:
+            image = cv2.dilate(image, kernel, iterations=1)
+
+    # Random horizontal stretch/squeeze
+    if random.random() < 0.4:
+        scale_x = random.uniform(0.85, 1.15)
+        new_w = max(1, int(w * scale_x))
+        image = cv2.resize(image, (new_w, h), interpolation=cv2.INTER_LINEAR)
+
+    return image
+
+
 class FieldDataset(Dataset):
     """Dataset of cropped field images with text labels.
 
@@ -60,9 +103,10 @@ class FieldDataset(Dataset):
     Each image is resized to a fixed height (32px) with variable width.
     """
 
-    def __init__(self, csv_path: Path = LABELS_CSV, transform=None):
+    def __init__(self, csv_path: Path = LABELS_CSV, transform=None, augment: bool = False):
         self.samples: list[tuple[str, str, str]] = []  # (image_path, field_name, value)
         self.transform = transform
+        self.augment = augment
 
         if not csv_path.exists():
             raise FileNotFoundError(f"Labels file not found: {csv_path}")
@@ -89,6 +133,9 @@ class FieldDataset(Dataset):
         if image is None:
             # Return a blank image if file is missing
             image = np.zeros((IMG_HEIGHT, IMG_HEIGHT), dtype=np.uint8)
+
+        if self.augment:
+            image = augment_image(image)
 
         image = resize_to_fixed_height(image, IMG_HEIGHT)
 

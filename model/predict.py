@@ -77,6 +77,8 @@ def predict_image(image: np.ndarray, model: CRNN, device: torch.device) -> tuple
         prev = idx
 
     text = "".join(decoded_chars)
+    # Normalize European decimal comma to dot for downstream processing
+    text = text.replace(",", ".")
     confidence = float(np.mean(char_confidences)) if char_confidences else 0.0
 
     return text, confidence

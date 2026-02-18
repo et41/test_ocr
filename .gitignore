@@ -7,3 +7,13 @@ venv/
 dist/
 build/
 output/
+
+# Large binary files
+*.pdf
+*.PDF
+data/images/
+data/crops/
+data/output/
+data/raw_pdfs/
+model/checkpoints/
+nul

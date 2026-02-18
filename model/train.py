@@ -5,7 +5,7 @@ from pathlib import Path
 
 import torch
 import torch.nn as nn
-from torch.utils.data import DataLoader, random_split
+from torch.utils.data import DataLoader
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
@@ -82,23 +82,34 @@ def train(
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Device: {device}")
 
-    # Load dataset
-    dataset = FieldDataset(Path(csv_path))
-    print(f"Total samples: {len(dataset)}")
+    # Load dataset — separate train (with augmentation) and val (without)
+    full_dataset = FieldDataset(Path(csv_path), augment=False)
+    print(f"Total samples: {len(full_dataset)}")
 
-    # Train/val split
-    val_size = max(1, int(len(dataset) * val_split))
-    train_size = len(dataset) - val_size
-    train_set, val_set = random_split(dataset, [train_size, val_size])
+    # Train/val split by indices
+    val_size = max(1, int(len(full_dataset) * val_split))
+    train_size = len(full_dataset) - val_size
+    all_indices = list(range(len(full_dataset)))
+    import random as rng
+    rng.shuffle(all_indices)
+    train_indices = all_indices[:train_size]
+    val_indices = all_indices[train_size:]
+
+    # Create separate datasets with/without augmentation
+    train_set = FieldDataset(Path(csv_path), augment=True)
+    val_set = FieldDataset(Path(csv_path), augment=False)
+
+    train_subset = torch.utils.data.Subset(train_set, train_indices)
+    val_subset = torch.utils.data.Subset(val_set, val_indices)
     print(f"Train: {train_size}, Validation: {val_size}")
 
-    train_loader = DataLoader(train_set, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
-    val_loader = DataLoader(val_set, batch_size=batch_size, shuffle=False, collate_fn=collate_fn)
+    train_loader = DataLoader(train_subset, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
+    val_loader = DataLoader(val_subset, batch_size=batch_size, shuffle=False, collate_fn=collate_fn)
 
     # Model
     model = CRNN(num_classes=NUM_CLASSES).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
-    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode="min", factor=0.5, patience=5)
+    scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode="min", factor=0.5, patience=10)
     ctc_loss = nn.CTCLoss(blank=BLANK_IDX, zero_infinity=True)
 
     CHECKPOINT_DIR.mkdir(parents=True, exist_ok=True)
@@ -182,7 +193,7 @@ def train(
                 "cer": avg_cer,
                 "accuracy": accuracy,
             }, checkpoint_path)
-            print(f"  → Saved best model (val_loss={val_loss:.4f})")
+            print(f"  -> Saved best model (val_loss={val_loss:.4f})")
         else:
             epochs_no_improve += 1
             if epochs_no_improve >= patience:

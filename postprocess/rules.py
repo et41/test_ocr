@@ -15,9 +15,11 @@ def load_validation_rules(config_path: Path = CONFIG_PATH) -> dict:
 
 
 def try_parse_numeric(value: str) -> float | None:
-    """Attempt to parse a string as a number."""
+    """Attempt to parse a string as a number. Handles European comma decimals."""
+    if value is None:
+        return None
     try:
-        return float(value)
+        return float(value.replace(",", "."))
     except (ValueError, TypeError):
         return None
 
@@ -166,9 +168,9 @@ def cross_validate(results: dict[str, dict], rules: dict) -> list[str]:
     """
     warnings = []
 
-    # Example: load loss should be greater than no-load loss
-    no_load = try_parse_numeric(results.get("no_load_loss_w", {}).get("corrected", ""))
-    load = try_parse_numeric(results.get("load_loss_w", {}).get("corrected", ""))
+    # Load loss (copper) should be greater than no-load loss (iron)
+    no_load = try_parse_numeric(results.get("no_load_100_wfe_w", {}).get("corrected", ""))
+    load = try_parse_numeric(results.get("load_loss_total_wcu_w", {}).get("corrected", ""))
     if no_load is not None and load is not None:
         if load <= no_load:
             warnings.append(
@@ -176,21 +178,30 @@ def cross_validate(results: dict[str, dict], rules: dict) -> list[str]:
             )
 
     # HV voltage should be greater than LV voltage
-    hv = try_parse_numeric(results.get("rated_voltage_hv_kv", {}).get("corrected", ""))
-    lv = try_parse_numeric(results.get("rated_voltage_lv_kv", {}).get("corrected", ""))
+    hv = try_parse_numeric(results.get("hv_voltage_v", {}).get("corrected", ""))
+    lv = try_parse_numeric(results.get("lv_voltage_v", {}).get("corrected", ""))
     if hv is not None and lv is not None:
         if hv <= lv:
             warnings.append(
-                f"HV voltage ({hv} kV) should be greater than LV voltage ({lv} kV)"
+                f"HV voltage ({hv} V) should be greater than LV voltage ({lv} V)"
             )
 
-    # Oil temp should be >= ambient temp
-    ambient = try_parse_numeric(results.get("ambient_temp_c", {}).get("corrected", ""))
-    oil = try_parse_numeric(results.get("oil_temp_c", {}).get("corrected", ""))
-    if ambient is not None and oil is not None:
-        if oil < ambient:
+    # Guaranteed Wfe should be >= measured Wfe at 100%
+    guaranteed_fe = try_parse_numeric(results.get("guaranteed_fe_loss_w", {}).get("corrected", ""))
+    measured_fe = try_parse_numeric(results.get("no_load_100_wfe_w", {}).get("corrected", ""))
+    if guaranteed_fe is not None and measured_fe is not None:
+        if measured_fe > guaranteed_fe * 1.15:
             warnings.append(
-                f"Oil temperature ({oil}°C) should be >= ambient temperature ({ambient}°C)"
+                f"Measured iron loss ({measured_fe} W) exceeds guaranteed ({guaranteed_fe} W) by >15%"
+            )
+
+    # Guaranteed Wcu should be >= measured Wcu
+    guaranteed_cu = try_parse_numeric(results.get("guaranteed_cu_loss_w", {}).get("corrected", ""))
+    measured_cu = try_parse_numeric(results.get("load_loss_total_wcu_w", {}).get("corrected", ""))
+    if guaranteed_cu is not None and measured_cu is not None:
+        if measured_cu > guaranteed_cu * 1.15:
+            warnings.append(
+                f"Measured copper loss ({measured_cu} W) exceeds guaranteed ({guaranteed_cu} W) by >15%"
             )
 
     return warnings

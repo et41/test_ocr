@@ -17,7 +17,7 @@ import cv2
 from correction.review_tool import format_output, review_results, save_corrections_for_retraining
 from model.predict import load_model, predict_image
 from pipeline.pdf_to_images import convert_pdf
-from pipeline.region_cropper import crop_fields, load_field_config
+from pipeline.region_cropper import REF_PAGE0, REF_PAGE1, crop_fields, load_field_config
 from postprocess.rules import cross_validate, load_validation_rules, validate_all
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
@@ -42,11 +42,18 @@ def process_pdf(pdf_path: Path, model, device, fields: dict, review: bool = Fals
         print("Error: No images generated from PDF.")
         return {}
 
-    # Step 2: Crop fields
+    # Step 2: Crop fields (with alignment to reference)
     print("\n[2/5] Cropping fields...")
+    ref_images = {}
+    for page_num, ref_path in [(0, REF_PAGE0), (1, REF_PAGE1)]:
+        if ref_path.exists():
+            ref = cv2.imread(str(ref_path))
+            if ref is not None:
+                ref_images[page_num] = ref
+
     all_crops = []
     for img_path in image_paths:
-        crops = crop_fields(img_path, fields, CROPS_DIR, preprocess=True)
+        crops = crop_fields(img_path, fields, CROPS_DIR, preprocess=True, ref_images=ref_images)
         all_crops.extend(crops)
     print(f"  Cropped {len(all_crops)} fields")
 
