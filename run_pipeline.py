@@ -15,7 +15,7 @@ from pathlib import Path
 import cv2
 
 from correction.review_tool import format_output, review_results, save_corrections_for_retraining
-from model.predict import load_model, predict_image
+from model.trocr_predict import load_trocr, predict_image
 from pipeline.pdf_to_images import convert_pdf
 from pipeline.region_cropper import REF_PAGE0, REF_PAGE1, crop_fields, load_field_config
 from postprocess.rules import cross_validate, load_validation_rules, validate_all
@@ -25,7 +25,7 @@ IMAGES_DIR = DATA_DIR / "images"
 CROPS_DIR = DATA_DIR / "crops"
 
 
-def process_pdf(pdf_path: Path, model, device, fields: dict, review: bool = False) -> dict:
+def process_pdf(pdf_path: Path, processor, model, device, fields: dict, review: bool = False) -> dict:
     """Process a single PDF through the full pipeline.
 
     Returns structured output dict with all field values and confidence scores.
@@ -75,7 +75,7 @@ def process_pdf(pdf_path: Path, model, device, fields: dict, review: bool = Fals
             predictions[field_name] = ("", 0.0)
             continue
 
-        text, confidence = predict_image(image, model, device)
+        text, confidence = predict_image(image, processor, model, device)
         predictions[field_name] = (text, confidence)
         print(f"  {field_name}: {text} ({confidence:.1%})")
 
@@ -135,13 +135,14 @@ def main():
         sys.exit(1)
 
     # Load model once
-    print("Loading CRNN model...")
+    print("Loading TrOCR model...")
     try:
-        model, device = load_model()
+        processor, model, device = load_trocr()
         print(f"Model loaded on {device}")
-    except FileNotFoundError:
-        print("Error: No trained model found at model/checkpoints/best_model.pt")
-        print("Run model/train.py first to train the model.")
+    except Exception as e:
+        print(f"Error loading TrOCR model: {e}")
+        print("Ensure you have an internet connection for the first run (downloads ~400 MB).")
+        print("Or fine-tune first: python model/trocr_finetune.py")
         sys.exit(1)
 
     # Load field config once
@@ -152,7 +153,7 @@ def main():
     # Process each PDF
     all_results = {}
     for pdf_path in pdf_paths:
-        result = process_pdf(pdf_path, model, device, fields, review=args.review)
+        result = process_pdf(pdf_path, processor, model, device, fields, review=args.review)
         all_results[pdf_path.stem] = result
 
     # Output
