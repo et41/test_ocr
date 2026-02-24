@@ -16,4 +16,5 @@ data/crops/
 data/output/
 data/raw_pdfs/
 model/checkpoints/
+model/*.pth
 nul
