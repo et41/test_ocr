@@ -66,20 +66,30 @@ def make_display(crop: np.ndarray, field_name: str, idx: int, total: int,
     return np.vstack([zoomed, panel])
 
 
-def run_labeling(crops_dir: Path = CROPS_DIR, labels_csv: Path = LABELS_CSV):
+def run_labeling(crops_dir: Path = CROPS_DIR, labels_csv: Path = LABELS_CSV,
+                 file_list: list | None = None):
     """GUI labeling session using OpenCV.
 
     Shows each crop image in a window. User types the value and presses Enter.
     Supports resume -- already-labeled images are skipped.
-    """
-    crops_dir.mkdir(parents=True, exist_ok=True)
-    crop_files = sorted(crops_dir.glob("*.png"))
-    if not crop_files:
-        print(f"No crop images found in {crops_dir}")
-        print("Run region_cropper.py first to generate crops.")
-        return
 
+    Args:
+        crops_dir: Directory to scan for crop PNGs (ignored when file_list given).
+        labels_csv: CSV file to append labels to.
+        file_list: Optional explicit list of Path objects to label. Skips crops_dir scan.
+    """
     labeled = load_existing_labels(labels_csv)
+
+    if file_list is not None:
+        crop_files = list(file_list)
+    else:
+        crops_dir.mkdir(parents=True, exist_ok=True)
+        crop_files = sorted(crops_dir.glob("*.png"))
+        if not crop_files:
+            print(f"No crop images found in {crops_dir}")
+            print("Run region_cropper.py first to generate crops.")
+            return
+
     unlabeled = [f for f in crop_files if str(f) not in labeled]
 
     if not unlabeled:

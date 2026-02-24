@@ -20,7 +20,7 @@ C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\22854-01_no_load_90_io_
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\22854-01_no_load_90_wfe_w.png,no_load_90_wfe_w,"24,9"
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\22854-01_no_load_vars.png,no_load_vars,"139,9"
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\22854-01_uk_tolerance_pct.png,uk_tolerance_pct,.0939
-C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_hv_current_a.png,hv_current_a,09
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_hv_current_a.png,hv_current_a,.09
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,965
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,970
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,964
@@ -80,7 +80,7 @@ C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_rated_power_k
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_ratio_lv1_1u2u_col2.png,ratio_lv1_1u2u_col2,24.98
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_ratio_lv1_1u2u_col3.png,ratio_lv1_1u2u_col3,24.36
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_ratio_lv1_1u2u_col4.png,ratio_lv1_1u2u_col4,23.765
-C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_hv_current_a.png,hv_current_a,09
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_hv_current_a.png,hv_current_a,.09
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,1.7791
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,7761
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,7730
@@ -147,7 +147,7 @@ C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_hv_res_tap5_1
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_hv_res_tap7_1u1v.png,hv_res_tap7_1u1v,"0,9285"
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_hv_winding_temp_c.png,hv_winding_temp_c,23.8
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_lv_current_a.png,lv_current_a,.32
-C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_lv_res_2u2v.png,lv_res_2u2v,74 
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_lv_res_2u2v.png,lv_res_2u2v,74
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_no_load_100_un_v.png,no_load_100_un_v,100
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_hv_current_a.png,hv_current_a,.37
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,.9117
@@ -170,3 +170,318 @@ C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_load_loss_tot
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_lv_current_a.png,lv_current_a,.33
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_lv_res_2w2u.png,lv_res_2w2u,16
 C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_lv_voltage_v.png,lv_voltage_v,00
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_current_a.png,hv_current_a,.30
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_hv_current_a.png,hv_current_a,.09
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_current_a.png,hv_current_a,6.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_current_a.png,hv_current_a,6.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_current_a.png,hv_current_a,6.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-01_hv_current_a.png,hv_current_a,3.99
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-10_hv_current_a.png,hv_current_a,.09
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-01_hv_current_a.png,hv_current_a,37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-10_hv_current_a.png,hv_current_a,.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300084-01_hv_current_a.png,hv_current_a,36.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300185-01_hv_current_a.png,hv_current_a,36.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-01_hv_current_a.png,hv_current_a,6.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-03_hv_current_a.png,hv_current_a,36.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-05_hv_current_a.png,hv_current_a,36.37
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500001-01_hv_current_a.png,hv_current_a,16.5
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500002-01_hv_current_a.png,hv_current_a,1.2
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,1.4801
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,.043
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,0.9240
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,.9353
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,0.9359
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,1.7947
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-10_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,.086
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-20_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,.871
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,9526
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-10_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,0.9600
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300062-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,0.96
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300062-05_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,0.9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300084-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,0.9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300185-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,948.5
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,0.963
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-03_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,0.970
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-05_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,964.0
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500001-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,8.958
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500002-01_hv_res_tap1_1u1v.png,hv_res_tap1_1u1v,2.753
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,.4766
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,.9133
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,0.9295
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,.9369
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,.9382
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,.8050
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-10_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,.8210
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-20_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,809
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,52.2
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-10_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,0.9670
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300062-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,0.958
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300062-05_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,9.96
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300084-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,0.906
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300185-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,974.8
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,0.955
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-03_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,0.975
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-05_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,966
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500001-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,8.890
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500002-01_hv_res_tap1_1v1w.png,hv_res_tap1_1v1w,2.757
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,4802
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,9260
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,9405
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,.9382
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,8070
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-10_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,201
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-20_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,800
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,53.9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-10_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,.9626
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300062-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,0.95
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300062-05_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,0.3
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300084-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,0.908
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300185-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,955.0
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,0.968
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-03_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,0.975
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-05_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,970
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500001-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,8.94
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500002-01_hv_res_tap1_1w1u.png,hv_res_tap1_1w1u,2.77
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_lv_current_a.png,lv_current_a,0.06
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_lv_current_a.png,lv_current_a,8.33
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_lv_current_a.png,lv_current_a,9.33
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_lv_current_a.png,lv_current_a,9.33
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-01_lv_current_a.png,lv_current_a,7.35
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300053-10_lv_current_a.png,lv_current_a,.35
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300054-10_lv_current_a.png,lv_current_a,9.33
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300185-01_lv_current_a.png,lv_current_a,909.33
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-01_lv_current_a.png,lv_current_a,09.33
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-03_lv_current_a.png,lv_current_a,909.3
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300186-05_lv_current_a.png,lv_current_a,909.33
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500001-01_lv_current_a.png,lv_current_a,993.4
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\500002-01_lv_current_a.png,lv_current_a,608
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\22854-01_hv_res_tap3_1v1w.png,hv_res_tap3_1v1w,u/2v
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\22854-01_hv_res_tap3_1w1u.png,hv_res_tap3_1w1u,/2w
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\22854-01_rated_power_kva.png,rated_power_kva,1U
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_guaranteed_cu_loss_w.png,guaranteed_cu_loss_w,5.
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap2_1u1v.png,hv_res_tap2_1u1v,1.4420
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap2_1v1w.png,hv_res_tap2_1v1w,1.4381
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap2_1w1u.png,hv_res_tap2_1w1u,4419
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap3_1u1v.png,hv_res_tap3_1u1v,.4034
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap3_1v1w.png,hv_res_tap3_1v1w,1.3990
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap3_1w1u.png,hv_res_tap3_1w1u,4025
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap4_1u1v.png,hv_res_tap4_1u1v,.3661
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap4_1v1w.png,hv_res_tap4_1v1w,.3619
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap4_1w1u.png,hv_res_tap4_1w1u,.2653
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap5_1u1v.png,hv_res_tap5_1u1v,1.3287
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap5_1v1w.png,hv_res_tap5_1v1w,.3239
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_res_tap5_1w1u.png,hv_res_tap5_1w1u,3280
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_hv_winding_temp_c.png,hv_winding_temp_c,30
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_induced_voltage_freq_hz.png,induced_voltage_freq_hz,e
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_induced_voltage_kv.png,induced_voltage_kv,Test De
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ins_res_temp_c.png,ins_res_temp_c,c
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_loss_tolerance_pct.png,loss_tolerance_pct,KDOWN VOLT
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_lv_res_2u2v.png,lv_res_2u2v,6365 0.6
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_lv_res_2v2w.png,lv_res_2v2w,338 0.6
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_lv_res_2w2u.png,lv_res_2w2u,565
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_lv_voltage_v.png,lv_voltage_v,433
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_lv_winding_temp_c.png,lv_winding_temp_c,C
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_oil_breakdown_1_kv.png,oil_breakdown_1_kv,est Devic
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_oil_breakdown_2_kv.png,oil_breakdown_2_kv,e:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_oil_breakdown_5_kv.png,oil_breakdown_5_kv,Tested
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_oil_breakdown_avg_kv.png,oil_breakdown_avg_kv,y
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_rated_power_kva.png,rated_power_kva,1500
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ratio_lv1_1u2u_col1.png,ratio_lv1_1u2u_col1,96 47.2
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ratio_lv1_1u2u_col2.png,ratio_lv1_1u2u_col2,77 46.15
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ratio_lv1_1u2u_col3.png,ratio_lv1_1u2u_col3,8 45.07
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ratio_lv1_1u2u_col4.png,ratio_lv1_1u2u_col4,6 43.992
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ratio_lv1_1v2v_col2.png,ratio_lv1_1v2v_col2,68 46.15
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ratio_lv1_1v2v_col3.png,ratio_lv1_1v2v_col3,45.06
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ratio_lv1_1v2v_col4.png,ratio_lv1_1v2v_col4,43.985
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300048-01_ukd_pct.png,ukd_pct,@
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_induced_voltage_kv.png,induced_voltage_kv,Test Dev
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_load_loss_lv1_wcu_w.png,load_loss_lv1_wcu_w,2.76 kw
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_loss_tolerance_pct.png,loss_tolerance_pct,KDOWN VOLT
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_lv_res_2u2v.png,lv_res_2u2v,606 2.5
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_lv_res_2v2w.png,lv_res_2v2w,"95 2,62"
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_lv_winding_temp_c.png,lv_winding_temp_c,C
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_no_load_100_un_v.png,no_load_100_un_v,00 0.76
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_no_load_110_io_a.png,no_load_110_io_a,762 348
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_no_load_110_un_v.png,no_load_110_un_v,00 0.
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_no_load_110_wfe_w.png,no_load_110_wfe_w,5W
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_no_load_90_io_a.png,no_load_90_io_a,62 349
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_no_load_90_wfe_w.png,no_load_90_wfe_w,9.1W
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_no_load_pf.png,no_load_pf,vice :
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_no_load_vars.png,no_load_vars,FK 800
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_oil_breakdown_1_kv.png,oil_breakdown_1_kv,est Devic
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_oil_breakdown_2_kv.png,oil_breakdown_2_kv,ce:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_oil_breakdown_4_kv.png,oil_breakdown_4_kv,FC
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-01_oil_breakdown_5_kv.png,oil_breakdown_5_kv,Tested b
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_hv_winding_temp_c.png,hv_winding_temp_c,"2,5"
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_induced_voltage_kv.png,induced_voltage_kv,Test Devi
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_load_loss_total_wcu_w.png,load_loss_total_wcu_w,2 77 kW
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_loss_tolerance_pct.png,loss_tolerance_pct,KDOWN VOLT
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_lv_res_2u2v.png,lv_res_2u2v,55 2.2
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_lv_res_2v2w.png,lv_res_2v2w,281 2.2
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_lv_res_2w2u.png,lv_res_2w2u,57 HV-T
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_lv_winding_temp_c.png,lv_winding_temp_c,5 C
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_no_load_100_io_a.png,no_load_100_io_a,758 349
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_no_load_100_un_v.png,no_load_100_un_v,100 0.7
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_no_load_100_wfe_w.png,no_load_100_wfe_w,2W
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_no_load_90_un_v.png,no_load_90_un_v,00 0
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_no_load_90_wfe_w.png,no_load_90_wfe_w,8.1W
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_no_load_pf.png,no_load_pf,vice :
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_no_load_vars.png,no_load_vars,FK 80
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_oil_breakdown_1_kv.png,oil_breakdown_1_kv,est Devic
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_oil_breakdown_2_kv.png,oil_breakdown_2_kv,ce:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_oil_breakdown_5_kv.png,oil_breakdown_5_kv,Tested
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_oil_breakdown_avg_kv.png,oil_breakdown_avg_kv,y:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_ratio_lv1_1u2u_col1.png,ratio_lv1_1u2u_col1,50 25.60
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_ratio_lv1_1v2v_col2.png,ratio_lv1_1v2v_col2,01 24.97
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_ratio_lv1_1v2v_col3.png,ratio_lv1_1v2v_col3,9 24.357
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-05_ratio_lv1_1v2v_col4.png,ratio_lv1_1v2v_col4,7 23.759
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_hv_winding_temp_c.png,hv_winding_temp_c,26
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_lv_res_2u2v.png,lv_res_2u2v,3400 2.2
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_lv_res_2v2w.png,lv_res_2v2w,880 237
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_lv_res_2w2u.png,lv_res_2w2u,80 HV-T
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_no_load_100_io_a.png,no_load_100_io_a,2 346.9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_no_load_100_wfe_w.png,no_load_100_wfe_w,W
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_no_load_pf.png,no_load_pf,ce
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_no_load_vars.png,no_load_vars,FK 800
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_oil_breakdown_5_kv.png,oil_breakdown_5_kv,ested by:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_ratio_lv1_1u2u_col1.png,ratio_lv1_1u2u_col1,251 25.60
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_ratio_lv1_1u2u_col2.png,ratio_lv1_1u2u_col2,06 24.98
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_ratio_lv1_1u2u_col3.png,ratio_lv1_1u2u_col3,75 24.369
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_ratio_lv1_1v2v_col1.png,ratio_lv1_1v2v_col1,243 25.6
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_ratio_lv1_1v2v_col3.png,ratio_lv1_1v2v_col3,8 24.356
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_ratio_lv1_1v2v_col4.png,ratio_lv1_1v2v_col4,6 23.75
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-10_uk_tolerance_pct.png,uk_tolerance_pct,MEASUREMENT
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_induced_voltage_kv.png,induced_voltage_kv,Test De
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_loss_tolerance_pct.png,loss_tolerance_pct,KDOWN VOLT
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_lv_res_2u2v.png,lv_res_2u2v,2970 2.
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_lv_res_2v2w.png,lv_res_2v2w,2440 2.3
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_no_load_vars.png,no_load_vars,FK 800
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_oil_breakdown_1_kv.png,oil_breakdown_1_kv,est Device
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_oil_breakdown_2_kv.png,oil_breakdown_2_kv,ce:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_oil_breakdown_4_kv.png,oil_breakdown_4_kv,FC
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_oil_breakdown_5_kv.png,oil_breakdown_5_kv,Tested
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_oil_breakdown_avg_kv.png,oil_breakdown_avg_kv,y:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ratio_lv1_1u2u_col1.png,ratio_lv1_1u2u_col1,50 25.60
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ratio_lv1_1u2u_col2.png,ratio_lv1_1u2u_col2,7 24.98
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ratio_lv1_1u2u_col3.png,ratio_lv1_1u2u_col3,5 24.362
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ratio_lv1_1u2u_col4.png,ratio_lv1_1u2u_col4,2 23.762
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ratio_lv1_1v2v_col1.png,ratio_lv1_1v2v_col1,44 25.60
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ratio_lv1_1v2v_col2.png,ratio_lv1_1v2v_col2,00 24.97
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ratio_lv1_1v2v_col3.png,ratio_lv1_1v2v_col3,8 24.35
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ratio_lv1_1v2v_col4.png,ratio_lv1_1v2v_col4,8 23.757
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_rlv_main_tap_mohm.png,rlv_main_tap_mohm,ohm
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300049-20_ukd_pct.png,ukd_pct,@
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_hv_res_tap7_1v1w.png,hv_res_tap7_1v1w,9212 0
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_hv_res_tap7_1w1u.png,hv_res_tap7_1w1u,9198 %
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_hv_voltage_v.png,hv_voltage_v,10000
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_loss_tolerance_pct.png,loss_tolerance_pct,KDOWN VOLTAGE
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_lv_res_2w2u.png,lv_res_2w2u,HV-T
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_lv_voltage_v.png,lv_voltage_v,100
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_lv_winding_temp_c.png,lv_winding_temp_c,C
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_no_load_100_io_a.png,no_load_100_io_a,82 4.96
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_no_load_100_wfe_w.png,no_load_100_wfe_w,8W
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_no_load_pf.png,no_load_pf,vice
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_no_load_vars.png,no_load_vars,FK 80
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_oil_breakdown_1_kv.png,oil_breakdown_1_kv,est Device
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_oil_breakdown_2_kv.png,oil_breakdown_2_kv,e:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_oil_breakdown_4_kv.png,oil_breakdown_4_kv,FC
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_oil_breakdown_5_kv.png,oil_breakdown_5_kv,Tested by
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-01_rated_power_kva.png,rated_power_kva,630
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_induced_voltage_kv.png,induced_voltage_kv,Test Devi
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_loss_tolerance_pct.png,loss_tolerance_pct,DOWN VOLTA
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_lv_res_2u2v.png,lv_res_2u2v,975 1.2
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_lv_res_2v2w.png,lv_res_2v2w,2961 1.0
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_no_load_100_un_v.png,no_load_100_un_v,1.19
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_no_load_100_wfe_w.png,no_load_100_wfe_w,2W
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_no_load_vars.png,no_load_vars,FK 800
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_oil_breakdown_1_kv.png,oil_breakdown_1_kv,t Device
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_oil_breakdown_4_kv.png,oil_breakdown_4_kv,FC
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_oil_breakdown_5_kv.png,oil_breakdown_5_kv,ested by
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_rated_power_kva.png,rated_power_kva,630
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1u2u_col1.png,ratio_lv1_1u2u_col1,31 25.62
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1u2u_col2.png,ratio_lv1_1u2u_col2,26 24.9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1u2u_col3.png,ratio_lv1_1u2u_col3,94 24.36
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1u2u_col4.png,ratio_lv1_1u2u_col4,2 23.5
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1u2u_col5.png,ratio_lv1_1u2u_col5,9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1v2v_col1.png,ratio_lv1_1v2v_col1,25 25.6
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1v2v_col2.png,ratio_lv1_1v2v_col2,19 24.3
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1v2v_col3.png,ratio_lv1_1v2v_col3,87 24.35
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-02_ratio_lv1_1v2v_col4.png,ratio_lv1_1v2v_col4,7 23.75
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap2_1u1v.png,hv_res_tap2_1u1v,0.8997
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap2_1v1w.png,hv_res_tap2_1v1w,0.9052
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap2_1w1u.png,hv_res_tap2_1w1u,9014
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap3_1u1v.png,hv_res_tap3_1u1v,.8740
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap3_1v1w.png,hv_res_tap3_1v1w,.8791
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap3_1w1u.png,hv_res_tap3_1w1u,.8756
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap4_1u1v.png,hv_res_tap4_1u1v,.8484
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap4_1v1w.png,hv_res_tap4_1v1w,.8535
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap4_1w1u.png,hv_res_tap4_1w1u,8502
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap5_1u1v.png,hv_res_tap5_1u1v,0.8243
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap5_1v1w.png,hv_res_tap5_1v1w,.8292
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_hv_res_tap5_1w1u.png,hv_res_tap5_1w1u,8261
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_induced_voltage_kv.png,induced_voltage_kv,Test Devi
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_lv_voltage_v.png,lv_voltage_v,400
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_lv_winding_temp_c.png,lv_winding_temp_c,C
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_no_load_100_io_a.png,no_load_100_io_a,52 497
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_no_load_100_wfe_w.png,no_load_100_wfe_w,3W
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_no_load_vars.png,no_load_vars,FK 800
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_oil_breakdown_1_kv.png,oil_breakdown_1_kv,est Devi
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_oil_breakdown_2_kv.png,oil_breakdown_2_kv,ce:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_oil_breakdown_5_kv.png,oil_breakdown_5_kv,Tested b
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_ratio_lv1_1u2u_col1.png,ratio_lv1_1u2u_col1,31 15.62
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_ratio_lv1_1u2u_col2.png,ratio_lv1_1u2u_col2,7 24.99
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_ratio_lv1_1u2u_col3.png,ratio_lv1_1u2u_col3,7 24.36
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_ratio_lv1_1u2u_col4.png,ratio_lv1_1u2u_col4,1 23.756
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_ratio_lv1_1v2v_col2.png,ratio_lv1_1v2v_col2,20 24.99
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_ratio_lv1_1v2v_col3.png,ratio_lv1_1v2v_col3,0 24.3
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-08_ratio_lv1_1v2v_col4.png,ratio_lv1_1v2v_col4,56 23.750
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap2_1u1v.png,hv_res_tap2_1u1v,9.9107
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap2_1v1w.png,hv_res_tap2_1v1w,0.9141
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap2_1w1u.png,hv_res_tap2_1w1u,9152
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap3_1u1v.png,hv_res_tap3_1u1v,845
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap3_1v1w.png,hv_res_tap3_1v1w,8866
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap3_1w1u.png,hv_res_tap3_1w1u,888.9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap4_1u1v.png,hv_res_tap4_1u1v,.8588
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap4_1v1w.png,hv_res_tap4_1v1w,.8610
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap4_1w1u.png,hv_res_tap4_1w1u,.8630
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap5_1u1v.png,hv_res_tap5_1u1v,0.8382
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap5_1v1w.png,hv_res_tap5_1v1w,.8427
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_hv_res_tap5_1w1u.png,hv_res_tap5_1w1u,.8427
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_induced_voltage_kv.png,induced_voltage_kv,Test De
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ins_res_temp_c.png,ins_res_temp_c,c
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_lv_res_2u2v.png,lv_res_2u2v,3757 1.3
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_lv_res_2v2w.png,lv_res_2v2w,744 1.3
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_lv_res_2w2u.png,lv_res_2w2u,924
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_no_load_vars.png,no_load_vars,FK 80
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_oil_breakdown_1_kv.png,oil_breakdown_1_kv,est Devi
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_oil_breakdown_2_kv.png,oil_breakdown_2_kv,e:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_oil_breakdown_4_kv.png,oil_breakdown_4_kv,FC
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_oil_breakdown_5_kv.png,oil_breakdown_5_kv,Tested
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_oil_breakdown_avg_kv.png,oil_breakdown_avg_kv,y:
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_rated_power_kva.png,rated_power_kva,640
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1u2u_col1.png,ratio_lv1_1u2u_col1,230 25.6
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1u2u_col2.png,ratio_lv1_1u2u_col2,26 24.9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1u2u_col3.png,ratio_lv1_1u2u_col3,93 24.3
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1u2u_col4.png,ratio_lv1_1u2u_col4,61 23.75
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1u2u_col5.png,ratio_lv1_1u2u_col5,7
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1v2v_col1.png,ratio_lv1_1v2v_col1,225
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1v2v_col2.png,ratio_lv1_1v2v_col2,620 24.9
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1v2v_col3.png,ratio_lv1_1v2v_col3,28 24.33
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1v2v_col4.png,ratio_lv1_1v2v_col4,56 23.75
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ratio_lv1_1v2v_col5.png,ratio_lv1_1v2v_col5,0
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-15_ukd_pct.png,ukd_pct,@
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap2_1v1w.png,hv_res_tap2_1v1w,.9130
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap2_1w1u.png,hv_res_tap2_1w1u,.9124
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap3_1u1v.png,hv_res_tap3_1u1v,.8845
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap3_1v1w.png,hv_res_tap3_1v1w,0.8868
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap3_1w1u.png,hv_res_tap3_1w1u,.8859
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap4_1u1v.png,hv_res_tap4_1u1v,.8585
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap4_1v1w.png,hv_res_tap4_1v1w,.8609
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap4_1w1u.png,hv_res_tap4_1w1u,.8598
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap5_1u1v.png,hv_res_tap5_1u1v,0.8341
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap5_1v1w.png,hv_res_tap5_1v1w,0.8366
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_res_tap5_1w1u.png,hv_res_tap5_1w1u,.8352
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_hv_winding_temp_c.png,hv_winding_temp_c,27.
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_induced_voltage_freq_hz.png,induced_voltage_freq_hz,ce
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_induced_voltage_kv.png,induced_voltage_kv,Test De
+C:\Users\Ares Trafo\Documents\text_recognizer\data\crops\300050-20_ins_res_temp_c.png,ins_res_temp_c,c
