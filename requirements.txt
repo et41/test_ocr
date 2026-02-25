@@ -9,3 +9,5 @@ protobuf
 torch
 pyyaml
 tensorboard
+pandas
+openpyxl
