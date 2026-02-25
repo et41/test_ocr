@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd.exe /c \"dir C:\\\\Users\\\\eren_\\\\Desktop\\\\testreports\\\\raw\")",
+      "Bash(cmd.exe /c \"dir C:\\\\Users\\\\eren_\\\\Desktop\")",
+      "Bash(powershell.exe -Command \"Get-ChildItem ''C:\\\\Users\\\\eren_\\\\Desktop'' -ErrorAction SilentlyContinue | Select-Object Name\")",
+      "Bash(python -c:*)",
+      "Bash(\"/c/Python38/python.exe\" -c \"import pytesseract, cv2, transformers; print\\(''deps ok''\\)\")",
+      "Bash(\"/c/Python38/python.exe\":*)",
+      "Bash(__NEW_LINE_b73741fe8fcd5806__ \"/c/Python38/python.exe\" -m pip list)"
+    ]
+  }
+}
